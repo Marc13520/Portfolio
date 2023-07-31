@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-with, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+    </head> 
+    <body>
+        <div class="container">
+            <div class="carte" data-tilt>
+                <img src="Media/Marc.png">
+                <h2>Marc Zunino</h2>
+                <p>Développeur Web Junior<br>&<br>Consultant en Marketing Digital</p>
+                <div class="reseau">
+                    <a href="https://www.linkedin.com/in/marc-zunino-abb96022a?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B36uK8PfnQqen5uSnfpkxMg%3D%3D/"><img src="Media/link.png"></a>
+                    <a href="https://www.instagram.com/"><img src="Media/insta.png"></a>
+                    <a href="https://www.facebook.com/"><img src="Media/fb.png"></a>
+                    <a href="https://www.twitter.com/"><img src="Media/twi.png"></a>
+                </div>
+                <a href="mailto: zuninomarc@gmail.com" class="bouton">Contactez-moi</a>
+          </div>
+
+          <div class="cube-container">
+            <div class="cube">
+              <a href="formation.html" class="face top" onclick="openFormationPage()">Formation</a>
+              <a href="formation.html" class="face bottom" onclick="openFormationPage()">Formation</a>
+              <a href="compétences.html" class="face right" onclick="openCompetencesPage()">Compétences</a>
+              <a href="compétences.html" class="face left" onclick="openCompetencesPage()">Compétences</a>
+              <a href="Réalisations.html" class="face front" onclick="openRealisationsPage()">Réalisations</a>
+              <a href="Réalisations.html" class="face back" onclick="openRealisationsPage()">Réalisations</a>
+            </div>
+          </div>
+          
+          <script>
+                function openFormationPage() {
+                  window.location.href = "formation.html";
+                }
+              
+                function openCompetencesPage() {
+                  window.location.href = "competences.html";
+                }
+              
+                function openRealisationsPage() {
+                  window.location.href = "realisations.html";
+                }
+              </script>
+          </style>
+        
+        <script src="vanilla-tilt.js.txt"></script>
+    </body>
+</html>
+        
